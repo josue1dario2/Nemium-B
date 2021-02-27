@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>El blog de Josue</title>
-      <link rel="stylesheet" href="/css/style-logical.css">
+      <link rel="stylesheet" href="./css/style-logical.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600,0,700;1,400;1,700&display=swap"
@@ -228,13 +228,47 @@
               </ul>
 
             </section>
+              <div class="section-content">
+                <h2>Modelo de caja</h2>
+                <div class="slider">
+                  <scroll-container class="slider-container">
+                    <scroll-page class="slider-slide" id="video-1">
+                      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5f5Ig_U2Bpk" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </scroll-page>
+                    <scroll-page class="slider-slide" id="video-2">
+                      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/eZGvSUNOlzo" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </scroll-page>
+                    <scroll-page class="slider-slide" id="video-3">
+                      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/PIFu6EPPkCU" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </scroll-page>
+                  </scroll-container>
+                  <div class="slider-bullet-list">
+                    <a href="#video-1" class="slider-bullet"></a>
+                    <a href="#video-2" class="slider-bullet"></a>
+                    <a href="#video-3" class="slider-bullet"></a>
+                  </div>
+                </div>
+              </div>
 
 
-
-            <p>
+            <p class="mailito">
               Si tienes alguna pregunta escríbeme a
               <a href="mailto:josue1dario2solis3@gmail.com">josue1dario2solis3@gmail.com</a>
             </p>
+            <div class="section-content">
+              <h2>Suscríbete a nuestro newsletter</h2>
+              <form action="#" class="form">
+                <input type="text" required placeholder="Nombre">
+                <input type="email" required placeholder="Correo electrónico">
+                <input type="submit" value="Suscribirme">
+              </form>
+            </div>
           </div>
         </div>
 
