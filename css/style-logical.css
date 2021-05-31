@@ -52,7 +52,8 @@ h1, h2, h3{
 
 }
 h1{
-  font-size: 40px;
+  font-size: 64px;
+  font-weight: 700;
   margin-block-start: 20px;
   margin-block-end: 16px;
 
@@ -313,19 +314,20 @@ footer{
   .header{
     position: sticky;
     inset-block-start: 0;
-    inset-block-start: -60px;
+    inset-block-start: -30px;
   }
   .header-content{
     position: relative;
-    inset-block-start: 65px;
+    inset-block-start: 30px;
     padding-inline: 0;
   }
   header{
     position: absolute;
-    inset-block-start: 0;
+    inset-block-start: 0s;
     inset-inline-start: -30px;
     /* inset-inline-start: -208px; */
     inline-size: 188px;
+    /* border: 1px solid red; */
   }
   .main{
     max-inline-size: 680px;
